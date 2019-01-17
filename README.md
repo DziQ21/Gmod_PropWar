@@ -2,4 +2,4 @@
 Its my first mod for Gmod
 
 Under work
-jebac disa orka skurwysyna ok
+jebac disa orka skurwysyna na master
