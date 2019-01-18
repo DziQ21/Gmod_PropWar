@@ -5,7 +5,7 @@
 	"maps"		"^_PW"
 	"menusystem"	"1"
 	"workshopid"	"none"
-
+	"Settings"
 
 
 	}
