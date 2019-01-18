@@ -1,0 +1,13 @@
+"Prop War"
+{
+	"base"		"base"
+	"title"		"Prop War"
+	"maps"		"^_PW"
+	"menusystem"	"1"
+	"workshopid"	"none"
+
+
+
+	}
+
+}
