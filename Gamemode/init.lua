@@ -1,16 +1,17 @@
+
 AddCSLuaFile( "cl_init.lua" )
 AddCSLuaFile( "shared.lua" )
 
 include( "shared.lua" )
 
-GM:PlayerConnect(name , ip)
+function GM:PlayerInitialSpawn(ply)
 
-  print(name.."conected with ip "..ip)
+print(ply.."initial spawn")
 
 end
 
-GM:PlayerInitialSpawn(ply)
+function GM:PlayerConnect(name , ip)
 
-  print(ply.."initial spawn")
+  print(name.."conected with ip "..ip)
 
 end
