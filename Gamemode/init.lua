@@ -8,7 +8,6 @@ GM:PlayerConnect(name , ip)
 
 
 end
-
 GM:PlayerInitialSpawn(ply)
 
 
