@@ -4,9 +4,12 @@ AddCSLuaFile( "shared.lua" )
 
 include( "shared.lua" )
 
+AddCSLuaFile( "Roundcontrol/cl_RoundControl")
+include( "Roundcontrol/sv_RoundControl")
+
 function GM:PlayerInitialSpawn(ply)
 
-print(ply.."initial spawn")
+print(ply:GetName().."initial spawn")
 
 end
 
